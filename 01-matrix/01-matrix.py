@@ -21,9 +21,6 @@ class Solution:
 
                 result[row][col] = distance
 
-                if (result[row][col] == "1"):
-                    minDistance = min(distance, minDistance)
-
                 for d in directions:
                     nRow, nCol = row + d[0], col + d[1]
 

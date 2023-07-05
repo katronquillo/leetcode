@@ -1,6 +1,6 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        # Top-Down DP - dp[i] is True iff s[i:] can be segmented
+        # Bottom Up DP - dp[i] is True iff s[i:] can be segmented
         dp = [False for _ in range(len(s) + 1)]
         dp[len(s)] = True
 

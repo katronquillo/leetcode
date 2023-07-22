@@ -1,7 +1,4 @@
 class Solution:
-    """
-    babad
-    """
     def longestPalindrome(self, s: str) -> str:
         palindrome, longestLength = "", 0
 
